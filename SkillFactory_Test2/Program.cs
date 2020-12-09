@@ -6,16 +6,16 @@ namespace SkillFactory_Test2
     {
         static void Main(string[] args)
         {
-            string myName = "Andrew";
-            Console.WriteLine(myName);
+			string myName = "Andrew";
+			byte myAge = 32;
+			bool myPet = false;
+			double myShoeSize = 41.5;
 
-            Console.WriteLine("\tПривет, мир");
-            Console.WriteLine("\tМне 32 года");
-            Console.WriteLine("\tMy name is \nAndrew");
-            Console.WriteLine('\u0040');
-            Console.WriteLine('\x23');
-
-            Console.ReadKey();
-        }
+			Console.WriteLine("My name is " + myName);
+			Console.WriteLine("My age is " + myAge);
+			Console.WriteLine("Do I have a pet? " + myPet);
+			Console.WriteLine("My shoe size is " + myShoeSize);
+			Console.ReadKey();
+		}
     }
 }
