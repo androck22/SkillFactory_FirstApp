@@ -15,6 +15,9 @@ namespace SkillFactory_Test2
 			Console.WriteLine("My age is " + myAge);
 			Console.WriteLine("Do I have a pet? " + myPet);
 			Console.WriteLine("My shoe size is " + myShoeSize);
+
+            Console.WriteLine("IntMin {0} ", int.MinValue);
+            Console.WriteLine("IntMax {0} ", int.MaxValue);
 			Console.ReadKey();
 		}
     }
